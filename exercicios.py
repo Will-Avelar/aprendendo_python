@@ -77,6 +77,16 @@ print(a != b) #se um é diferente do outro
 print(a <= b) #se um é menor ou igual ao outro
 print(a >= b) #se um é maior ou igual ao outro
 
+"""OPERADORES QUE REPRESENTAM VALORES BOOLEANOS"""
+# a is b - - TRUE se A e B são identicos 
+# a is not b - - TRUE se A e B não são idênticos
+# a in b  - - TRUE se A é membro de B
+# a not in b - - TRUE se a não é membro de B
+x = [1, 2, 3]
+y = [1, 2, 2]
+print(x == y)
+print(x is y)
+
 """ENTRADA DE USUÁRIO"""
 #segue abaixo alguma formar de input mais elegante é a ultima
 nome = input("digite seu nome: ")
